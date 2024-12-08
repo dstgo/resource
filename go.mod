@@ -4,12 +4,12 @@ go 1.23.1
 
 require (
 	github.com/aliyun/aliyun-oss-go-sdk v3.0.2+incompatible
-	github.com/dstgo/kratosx v1.0.0
+	github.com/dstgo/configure v1.0.1
+	github.com/dstgo/kratosx v1.0.1
 	github.com/envoyproxy/protoc-gen-validate v1.0.4
 	github.com/go-kratos/kratos/v2 v2.7.3
 	github.com/go-redis/redis/v8 v8.11.5
 	github.com/google/uuid v1.6.0
-	github.com/dstgo/configure v1.0.1
 	github.com/nfnt/resize v0.0.0-20180221191011-83c6a9932646
 	github.com/tencentyun/cos-go-sdk-v5 v0.7.49
 	go.uber.org/automaxprocs v1.5.3
