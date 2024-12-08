@@ -1,9 +1,9 @@
 package app
 
 import (
+	"github.com/dstgo/resource/internal/conf"
 	"github.com/go-kratos/kratos/v2/transport/grpc"
 	"github.com/go-kratos/kratos/v2/transport/http"
-	"github.com/limes-cloud/resource/internal/conf"
 )
 
 type registryFunc func(c *conf.Config, hs *http.Server, gs *grpc.Server)

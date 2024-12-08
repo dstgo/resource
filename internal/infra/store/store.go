@@ -4,17 +4,17 @@ import (
 	"context"
 	"errors"
 
-	"github.com/limes-cloud/resource/internal/infra/store/types"
+	"github.com/dstgo/resource/internal/infra/store/types"
 
-	"github.com/limes-cloud/kratosx"
+	"github.com/dstgo/kratosx"
 	"gorm.io/gorm"
 	"gorm.io/gorm/logger"
 
-	"github.com/limes-cloud/resource/internal/conf"
-	"github.com/limes-cloud/resource/internal/infra/store/channel/aliyun"
-	"github.com/limes-cloud/resource/internal/infra/store/channel/local"
-	"github.com/limes-cloud/resource/internal/infra/store/channel/tencent"
-	"github.com/limes-cloud/resource/internal/infra/store/config"
+	"github.com/dstgo/resource/internal/conf"
+	"github.com/dstgo/resource/internal/infra/store/channel/aliyun"
+	"github.com/dstgo/resource/internal/infra/store/channel/local"
+	"github.com/dstgo/resource/internal/infra/store/channel/tencent"
+	"github.com/dstgo/resource/internal/infra/store/config"
 )
 
 const (

@@ -1,7 +1,7 @@
 package local
 
 import (
-	"github.com/limes-cloud/kratosx/types"
+	"github.com/dstgo/kratosx/types"
 	"gorm.io/gorm"
 )
 

@@ -12,14 +12,14 @@ import (
 	"time"
 	"unsafe"
 
+	"github.com/dstgo/kratosx/pkg/crypto"
+	"github.com/dstgo/kratosx/pkg/lock"
 	"github.com/go-redis/redis/v8"
 	"github.com/google/uuid"
-	"github.com/limes-cloud/kratosx/pkg/crypto"
-	"github.com/limes-cloud/kratosx/pkg/lock"
 	"gorm.io/gorm"
 
-	"github.com/limes-cloud/resource/internal/infra/store/config"
-	"github.com/limes-cloud/resource/internal/infra/store/types"
+	"github.com/dstgo/resource/internal/infra/store/config"
+	"github.com/dstgo/resource/internal/infra/store/types"
 )
 
 type Local struct {

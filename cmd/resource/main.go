@@ -6,18 +6,18 @@ import (
 	"log"
 	"os"
 
+	"github.com/dstgo/configure/api/configure/client"
+	"github.com/dstgo/kratosx"
+	"github.com/dstgo/kratosx/config"
+	"github.com/dstgo/kratosx/pkg/filex"
+	"github.com/dstgo/kratosx/pkg/printx"
 	"github.com/go-kratos/kratos/v2"
 	"github.com/go-kratos/kratos/v2/transport/grpc"
 	"github.com/go-kratos/kratos/v2/transport/http"
-	"github.com/limes-cloud/configure/api/configure/client"
-	"github.com/limes-cloud/kratosx"
-	"github.com/limes-cloud/kratosx/config"
-	"github.com/limes-cloud/kratosx/pkg/filex"
-	"github.com/limes-cloud/kratosx/pkg/printx"
 	_ "go.uber.org/automaxprocs"
 
-	"github.com/limes-cloud/resource/internal/app"
-	"github.com/limes-cloud/resource/internal/conf"
+	"github.com/dstgo/resource/internal/app"
+	"github.com/dstgo/resource/internal/conf"
 )
 
 func main() {

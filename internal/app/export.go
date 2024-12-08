@@ -3,18 +3,18 @@ package app
 import (
 	"context"
 
+	"github.com/dstgo/kratosx"
+	"github.com/dstgo/kratosx/pkg/valx"
 	"github.com/go-kratos/kratos/v2/transport/grpc"
 	"github.com/go-kratos/kratos/v2/transport/http"
-	"github.com/limes-cloud/kratosx"
-	"github.com/limes-cloud/kratosx/pkg/valx"
 
-	"github.com/limes-cloud/resource/api/resource/errors"
-	pb "github.com/limes-cloud/resource/api/resource/export/v1"
-	"github.com/limes-cloud/resource/internal/conf"
-	"github.com/limes-cloud/resource/internal/domain/service"
-	"github.com/limes-cloud/resource/internal/infra/dbs"
-	"github.com/limes-cloud/resource/internal/infra/store"
-	"github.com/limes-cloud/resource/internal/types"
+	"github.com/dstgo/resource/api/resource/errors"
+	pb "github.com/dstgo/resource/api/resource/export/v1"
+	"github.com/dstgo/resource/internal/conf"
+	"github.com/dstgo/resource/internal/domain/service"
+	"github.com/dstgo/resource/internal/infra/dbs"
+	"github.com/dstgo/resource/internal/infra/store"
+	"github.com/dstgo/resource/internal/types"
 )
 
 type Export struct {

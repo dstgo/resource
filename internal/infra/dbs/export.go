@@ -6,12 +6,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/limes-cloud/kratosx"
+	"github.com/dstgo/kratosx"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/limes-cloud/resource/internal/conf"
-	"github.com/limes-cloud/resource/internal/domain/entity"
-	"github.com/limes-cloud/resource/internal/types"
+	"github.com/dstgo/resource/internal/conf"
+	"github.com/dstgo/resource/internal/domain/entity"
+	"github.com/dstgo/resource/internal/types"
 )
 
 type Export struct {

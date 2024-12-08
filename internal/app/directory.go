@@ -3,19 +3,19 @@ package app
 import (
 	"context"
 
+	"github.com/dstgo/kratosx"
+	"github.com/dstgo/kratosx/pkg/valx"
 	ktypes "github.com/dstgo/kratosx/types"
 	"github.com/go-kratos/kratos/v2/transport/grpc"
 	"github.com/go-kratos/kratos/v2/transport/http"
-	"github.com/limes-cloud/kratosx"
-	"github.com/limes-cloud/kratosx/pkg/valx"
 
-	pb "github.com/limes-cloud/resource/api/resource/directory/v1"
-	"github.com/limes-cloud/resource/api/resource/errors"
-	"github.com/limes-cloud/resource/internal/conf"
-	"github.com/limes-cloud/resource/internal/domain/entity"
-	"github.com/limes-cloud/resource/internal/domain/service"
-	"github.com/limes-cloud/resource/internal/infra/dbs"
-	"github.com/limes-cloud/resource/internal/types"
+	pb "github.com/dstgo/resource/api/resource/directory/v1"
+	"github.com/dstgo/resource/api/resource/errors"
+	"github.com/dstgo/resource/internal/conf"
+	"github.com/dstgo/resource/internal/domain/entity"
+	"github.com/dstgo/resource/internal/domain/service"
+	"github.com/dstgo/resource/internal/infra/dbs"
+	"github.com/dstgo/resource/internal/types"
 )
 
 type Directory struct {

@@ -1,14 +1,14 @@
 package service
 
 import (
-	"github.com/limes-cloud/kratosx"
-	"github.com/limes-cloud/kratosx/pkg/tree"
+	"github.com/dstgo/kratosx"
+	"github.com/dstgo/kratosx/pkg/tree"
 
-	"github.com/limes-cloud/resource/api/resource/errors"
-	"github.com/limes-cloud/resource/internal/conf"
-	"github.com/limes-cloud/resource/internal/domain/entity"
-	"github.com/limes-cloud/resource/internal/domain/repository"
-	"github.com/limes-cloud/resource/internal/types"
+	"github.com/dstgo/resource/api/resource/errors"
+	"github.com/dstgo/resource/internal/conf"
+	"github.com/dstgo/resource/internal/domain/entity"
+	"github.com/dstgo/resource/internal/domain/repository"
+	"github.com/dstgo/resource/internal/types"
 )
 
 type Directory struct {

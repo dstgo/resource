@@ -1,7 +1,7 @@
 package entity
 
 import (
-	"github.com/limes-cloud/kratosx/types"
+	"github.com/dstgo/kratosx/types"
 )
 
 type Directory struct {

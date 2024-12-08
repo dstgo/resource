@@ -1,10 +1,10 @@
 package repository
 
 import (
-	"github.com/limes-cloud/kratosx"
+	"github.com/dstgo/kratosx"
 
-	"github.com/limes-cloud/resource/internal/domain/entity"
-	"github.com/limes-cloud/resource/internal/types"
+	"github.com/dstgo/resource/internal/domain/entity"
+	"github.com/dstgo/resource/internal/types"
 )
 
 type File interface {

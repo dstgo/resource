@@ -11,11 +11,11 @@ import (
 	"time"
 
 	"github.com/aliyun/aliyun-oss-go-sdk/oss"
+	"github.com/dstgo/kratosx/pkg/lock"
 	"github.com/go-redis/redis/v8"
-	"github.com/limes-cloud/kratosx/pkg/lock"
 
-	"github.com/limes-cloud/resource/internal/infra/store/config"
-	"github.com/limes-cloud/resource/internal/infra/store/types"
+	"github.com/dstgo/resource/internal/infra/store/config"
+	"github.com/dstgo/resource/internal/infra/store/types"
 )
 
 type Aliyun struct {
